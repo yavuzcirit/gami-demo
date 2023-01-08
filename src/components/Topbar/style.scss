@@ -1,0 +1,48 @@
+.topbar-wrapper{
+   
+    border-bottom:1px solid #D4D4D4;
+    padding-right:10rem;
+    padding-left:10rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+  
+    .topbar-main{
+        display: flex;
+        justify-content: space-between;
+        .logo-part{
+
+        }
+        .nav-selections{
+            display:flex !important;
+            padding-right:1rem !important;
+            align-items: center;
+            align-content: center;
+            justify-content: flex-end;
+            .nav-element{
+                cursor:pointer !important;
+                margin-right:34px !important;
+                font-weight:500;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                color: #1C325B;
+            }
+            .buy-gami{
+                cursor:pointer !important;
+                width: 105px;
+                height: 36px;
+                background: #F0F0F3;
+                border: 1px solid #FFFFFF;
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+                border-radius: 6px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1C325B;
+            }
+        }
+    }
+
+}
