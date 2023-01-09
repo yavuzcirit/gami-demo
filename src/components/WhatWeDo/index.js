@@ -1,6 +1,7 @@
 import './style.scss'
 import Card from '../Card'
 import Galatasaray from '../Galatasaray'
+import Spin from "react-reveal/Spin"
 
 const WhatWeDo = () => {
   const data = [0,1,2,3,4]
@@ -9,8 +10,8 @@ const WhatWeDo = () => {
     <div className='section-wrapper'>
       <div className='header'>What We Do</div>
       <div className='card-wrapper'>
-       {data.map((item,index)=><Card text={text} key={index} svg={item} />) }
-       <Galatasaray />
+       {data.map((item,index)=><Spin><Card text={text} key={index} svg={item} /></Spin>) }
+       <Spin><Galatasaray /></Spin>
       
       </div>
     </div>

@@ -1,10 +1,12 @@
 import React from 'react'
 import "./style.scss"
 import { ReactComponent as Logo } from '../../assets/gamiLogo.svg'
+import Slide from 'react-reveal/Slide';
 
 const Footer = () => {
   return (
     <div className='footer'>
+      <Slide bottom>
         <div className='footer-logo'><Logo/></div>
         <div className='footer-elements'>
                 <div className='element'>LAUNCHPAD</div>
@@ -20,6 +22,7 @@ const Footer = () => {
             <div className='subdata'>Cookie Policy</div>
             <div className='subdata'>Terms Of Service</div>
         </div>
+        </Slide>
     </div>
   )
 }

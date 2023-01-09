@@ -5,6 +5,13 @@
     justify-content: space-between;
     height:357px !important;
     margin-top:25px;
+    .part-two-light{
+            transform:translate(5px,5px) scale(1.1);
+            background: #1C325B;
+            border-radius: 30px;
+            //transition: transform .35s ease-out ; 
+    }
+
     .part-one{
         display:flex;
         flex-direction: column;
