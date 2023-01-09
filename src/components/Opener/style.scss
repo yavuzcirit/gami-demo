@@ -1,0 +1,27 @@
+.opener-wrapper{
+    display:flex !important;
+    padding-left:10rem;
+    padding-right:12rem;
+    justify-content: space-between;
+    height:357px !important;
+    margin-top:25px;
+    .part-one{
+        display:flex;
+        flex-direction: column;
+        .text{
+            width:667px !important;
+            height:97px;
+            padding-top:7rem;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 29px;
+            letter-spacing: 0.01em;
+            color: #000000;
+        }
+        .button{
+           margin-top:31px;
+           cursor:pointer;
+        }
+    }
+}
