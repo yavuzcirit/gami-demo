@@ -1,0 +1,14 @@
+.card{
+width: 344px;
+height: 241px;
+background: #FFFFFF;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.06);
+border-radius: 6px;
+padding:1px !important;
+    .inner-card{
+        width: 100%;
+        height: 100%;
+        background: #F2F2F2;
+        border-radius: 6px;
+    }
+}

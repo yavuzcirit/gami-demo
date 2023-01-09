@@ -1,0 +1,29 @@
+.section-wrapper{
+    display:flex;
+    flex-direction: column !important;
+    padding-right: 10rem;
+    padding-left:10rem;
+    margin-top:130px;
+    margin-bottom:44px;
+    .card-wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 60px;
+        grid-column-gap: 40px;
+      
+    }
+    .header{
+        width: 191px;
+        height: 38px;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px !important;
+        line-height: 38px;
+/* identical to box height */   
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin-bottom: 46px;
+    }
+}
