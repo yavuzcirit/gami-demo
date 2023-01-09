@@ -26,6 +26,9 @@
                 font-size: 12px;
                 line-height: 14px;
                 color: #1C325B;
+                &:hover{
+                    color: #A4A4A4;
+                }
             }
             .buy-gami{
                 cursor:pointer !important;
@@ -40,6 +43,10 @@
                 font-size: 16px;
                 line-height: 19px;
                 color: #1C325B;
+                &:hover{
+                    background:#1C325B;
+                    color:#F0F0F3;
+                }
             }
         }
     }
