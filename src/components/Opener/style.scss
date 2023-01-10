@@ -5,11 +5,60 @@
     justify-content: space-between;
     height:357px !important;
     margin-top:25px;
-    .part-two-light{
+    @media screen and (max-width: 1376px){
+        display:flex;
+        flex-direction: column-reverse !important;
+        height:100%;
+        margin-top:34rem;
+    }
+    @media screen and (max-width: 900px){
+      
+       display: flex;
+       justify-content: center;
+       flex-direction: column-reverse;
+       align-content: center;
+       align-items: center;
+       height:fit-content;
+       margin-top:20rem;
+       margin-bottom:20rem;
+           }
+
+           @media screen and (max-width: 600px){
+            margin-top:40rem;
+            margin-bottom:30rem;
+                }
+  .part-two-light{
             transform:translate(5px,5px) scale(1.1);
             background: #1C325B;
             border-radius: 30px;
             //transition: transform .35s ease-out ; 
+            @media screen and (max-width: 1376px){
+             width:fit-content;
+             height: fit-content;
+             display:flex;
+             justify-content: center;
+             align-items: center;
+             align-content: center;
+             text-align: center;
+           
+             margin-bottom:3rem;
+
+            }
+    }
+
+
+    .part-two{
+        @media screen and (max-width: 1376px){
+            order:1 !important;
+            width:fit-content;
+            height: fit-content;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+          
+            margin-bottom:3rem;
+           }
     }
 
     .part-one{
@@ -25,10 +74,30 @@
             line-height: 29px;
             letter-spacing: 0.01em;
             color: #000000;
+            @media screen and (max-width: 900px){
+                width:100% !important;
+                padding-top: 2rem;
+                margin-bottom: 2rem;
+                   }
+                   @media screen and (max-width: 630px){
+                    margin-top:4rem !important;
+                }
         }
         .button{
            margin-top:31px;
            cursor:pointer;
+           @media screen and (max-width: 1376px){
+      
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            margin-top:7rem;
+                }
+                @media screen and (max-width: 630px){
+                    margin-top:14rem;
+                }
         }
     }
 }

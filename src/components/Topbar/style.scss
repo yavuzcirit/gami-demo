@@ -5,19 +5,33 @@
     padding-left:10rem;
     padding-top:1rem;
     padding-bottom:1rem;
+ 
   
     .topbar-main{
         display: flex;
         justify-content: space-between;
         .logo-part{
-            
+            @media screen and (max-width: 900px){
+              display:flex;
+              justify-content: center;
+              align-items: center;
+              align-content: center;
+                   }
         }
+        @media screen and (max-width: 900px){
+          display:flex;
+          flex-direction: column;
+             }
         .nav-selections{
             display:flex !important;
             padding-right:1rem !important;
             align-items: center;
             align-content: center;
             justify-content: flex-end;
+            @media screen and (max-width: 900px){
+                display:flex;
+                flex-direction: column;
+                   }
             .nav-element{
                 cursor:pointer !important;
                 margin-right:34px !important;
@@ -26,6 +40,10 @@
                 font-size: 12px;
                 line-height: 14px;
                 color: #1C325B;
+                @media screen and (max-width: 900px){
+                    margin:40px;
+                    font-size: 32px;
+                       }
                 &:hover{
                     color: #A4A4A4;
                 }

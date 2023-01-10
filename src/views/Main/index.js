@@ -9,7 +9,6 @@ const Main = () => {
         <Opener />
         <WhatWeDo />
         <Footer />
-
     </div>
   )
 }
